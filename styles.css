@@ -1,0 +1,98 @@
+body {
+  font-size: 20px;
+  background-color:#FFF4F4;
+  font-family: cursive;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #0B666A;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style: none;
+  font-family: cursive;
+}
+
+li {
+  display: inline;
+  position: relative;
+  right: 20px;
+  bottom: 8px;
+  padding: 15px;
+  font-family: cursive;
+}
+
+select {
+  border-style: hidden;
+  background-color: #FAF3F0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.child {
+  height: 300px;
+  width: 350px;
+  background-color: #A7EDE7;
+  text-align: center;
+  padding: 10px;
+}
+
+#btn {
+  outline: none;
+  border: 1px hidden #404B69;
+  font-size: 15px;
+  font-family: cursive;
+  line-height: 1;
+  font-weight: 20px;
+  color: black;
+  box-shadow: 3px 0 #FCAEAE;
+  border-radius: 35px;
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  margin: 10px;
+  background-color: #FF8989;
+  position: relative;
+  bottom: 15px;
+}
+
+#btn:hover {
+  background-color: #FCAEAE;
+}
+
+#selectTo {
+  position: relative;
+  left: 15px;
+  bottom: 15px;
+  height: 20px;
+}
+
+#selectFrom {
+  height: 20px;
+}
+
+#from {
+  width: 120px;
+  position: relative;
+  right: 15px;
+  bottom: 18px;
+  border-style: hidden;
+  background-color: #FAF3F0;
+}
+
+#to {
+  position: relative;
+  width: 150px;
+  bottom: 25px;
+  border-style: hidden;
+  background-color: #FAF3F0;
+}

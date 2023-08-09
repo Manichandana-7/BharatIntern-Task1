@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Temperature converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicons.ico">
+  </head>
+  <body>
+    <div class="container">
+      <div class="child">
+        <h1>Temperature Converter</h1>
+        <ul>
+          <li class="lione">Temperature</li>
+          <li class="lione">
+            <select  id="selectFrom" name="type">
+              <option>From</option>
+              <option>Celsius</option>
+              <option>Farenheit</option>
+              <option>Kelvin</option>
+            </select>
+          </li>
+        </ul>
+        <input type="number" id="from"  required>
+        <select  id="selectTo" name="type">
+          <option>To</option>
+          <option>Celsius</option>
+          <option>Farenheit</option>
+          <option>Kelvin</option>
+        </select>
+        <ul>
+          <li class="litwo">Result</li>
+        </ul>
+        <input type="number" id="to" >
+        <br>
+        <button type="button" class="convert " id="btn" >convert</button>
+      </div>
+    </div>
+    <script src="temp.js" charset="utf-8">  </script>
+  </body>
+</html>
